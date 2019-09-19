@@ -2,7 +2,6 @@
 #
 #
 #
-kokku=`date`;
 kuu=`date | awk -F" " '{ print $2 }'`;
 kuup2ev=`date | awk -F" " '{ print $3 }'`;
 p2ev=`date | awk -F" " '{ print $1 }'`;
